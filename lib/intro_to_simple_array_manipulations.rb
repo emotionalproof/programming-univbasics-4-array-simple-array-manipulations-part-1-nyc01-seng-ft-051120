@@ -19,6 +19,5 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
-  new_array = 2.times { array.shift }
-  new_array
+  array.shift(2)
 end
